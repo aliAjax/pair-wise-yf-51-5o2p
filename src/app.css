@@ -46,6 +46,12 @@ header p, header small { color: #697880; margin: 0; }
 .chip.待审 { background: #fff1d8; color: #996515; }
 .chip.已通过 { background: #def5ee; color: #0f735f; }
 .chip.退回 { background: #fde5e5; color: #a43838; }
+.chip.locked { background: #e7e0f7; color: #5b3fa0; }
+.chip.v { background: #eef2f3; color: #5c6b70; font-variant-numeric: tabular-nums; }
+.chips { display: flex; flex-wrap: wrap; gap: 4px; justify-content: flex-end; }
+.notice { background: #fff7e6; border: 1px solid #f0c98a; color: #8a6d1f; border-radius: 10px; padding: 11px 14px; margin-bottom: 16px; font-size: 14px; }
+.hint { color: #859198; font-size: 12px; margin: 8px 0 10px; }
+.snap { color: #5b3fa0; font-size: 11px; margin-left: 6px; }
 .right-stack { display: grid; gap: 18px; }
 .label { display: grid; gap: 6px; color: #66767d; font-size: 13px; margin-bottom: 10px; }
 .input, .textarea { width: 100%; border: 1px solid #cdd9dc; border-radius: 8px; padding: 9px 10px; background: #fbfdfd; color: #17212b; }
